@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dz-11"
+version = "0.1.0"
+description = ""
+authors = ["9-Bogdan <127949078+9-Bogdan@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "dz_11"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydentic = "^0.0.1.dev3"
+fastapi = "^0.103.2"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+sqlalchemy = "^2.0.21"
+psycopg2 = "^2.9.8"
+python-multipart = "^0.0.6"
+pydantic = "^2.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
